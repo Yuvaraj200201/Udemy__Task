@@ -18,6 +18,6 @@ This project is a simplified replica of Udemy's front page, designed to demonstr
 - CSS3
 
 # Live Demo
-[Insert link to live demo or GitHub Pages deployment]
+Link:https://yuvaraj200201.github.io/Udemy__Task/
 # Acknowledgments
 Yuvaraj - Developer
