@@ -85,7 +85,7 @@ body {
     border: solid 1px darkmagenta;
 }
 
-.catagories p:hover{
+.catagories p:hover {
     transition: 2s;
     background-color: transparent;
     color: darkmagenta;
