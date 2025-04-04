@@ -14,6 +14,10 @@ body {
     border-bottom: solid 1px black;
     gap: 30px;
     align-items: center;
+    position: sticky;
+    top: 0;
+    background-color: white;
+    z-index: 1;
 }
 
 .navbar__s1__title {
@@ -44,8 +48,25 @@ body {
     display: flex;
     gap: 15px;
     align-items: center;
+    background-color: transparent;
 }
-
+.mylearning{
+    position: relative;
+    cursor: pointer;
+}
+.mylearning__pop{
+    position: absolute;
+    background-color: white;
+    width: 100px;
+    padding: 10px;
+    border: solid black 1px;
+    top: 150%;
+    right: 0;
+    display: none;
+}
+.mylearning:hover .mylearning__pop{
+    display: block;
+}
 .catagories {
     display: flex;
     padding: 10px;
