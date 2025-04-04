@@ -81,10 +81,16 @@ body {
     padding: 10px;
     border-radius: 30px;
     margin: 5px;
+    cursor: pointer;
+    border: solid 1px darkmagenta;
 }
 
-.catagories p:hover {
-    background-color: black;
+.catagories p:hover{
+    transition: 2s;
+    background-color: transparent;
+    color: darkmagenta;
+    color: black;
+    border: solid 1px darkmagenta;
 }
 .sale-image {
     position: relative;
@@ -101,6 +107,18 @@ body {
     left: 10%;
     background-color: white;
     padding: 20px;
+    animation: zoom 2s forwards;
+    opacity: 0;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(0);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
 }
 .recommended {
     padding: 15px;
