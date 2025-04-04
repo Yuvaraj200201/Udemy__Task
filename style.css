@@ -88,11 +88,12 @@ body {
 }
 .sale-image {
     position: relative;
-}                    
+}         
+
 .sale-image img {
     width: 100%;
 }
-.sale-image__offer{
+.sale-image__offer {
     width: 400px;
     border: solid 1px black;
     position: absolute;
