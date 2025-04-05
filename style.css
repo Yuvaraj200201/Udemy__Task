@@ -50,6 +50,9 @@ body {
     gap: 15px;
     align-items: center;
 }
+.navbar__s4 {
+    display: none;
+}   
 .mylearning{
     position: relative;
     cursor: pointer;
